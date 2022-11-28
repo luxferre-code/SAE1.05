@@ -1,0 +1,25 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.support {
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+.support:hover, .connect:hover, .register:hover {
+    color: blue;
+}
+
+.connect {
+    grid-column-start: 13;
+    grid-column-end: 14;
+}
+
+.register {
+    grid-column-start: 14;
+    grid-column-end: 15;
+}
