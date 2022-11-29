@@ -114,3 +114,49 @@ footer > p > a:hover {
     color: blue;
     text-decoration: none;
 }
+
+/* end footer */
+
+.container-engagement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: solid 10px;
+    border-color: orange;
+    background-color: white;
+}
+
+.engagement-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "latoblack", sans-serif;
+    font-size: 25px;
+    color: white;
+    width: 15%;
+    height: 100px;
+    background-color: orange;
+}
+
+/* Back to top */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top {
+    position: fixed;
+    bottom: 25px;
+    float: right;
+    right: 5%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0);
+    background-color: rgba(100, 100, 100, 0);
+    padding: .5px;
+    border-radius: 4px;
+}
