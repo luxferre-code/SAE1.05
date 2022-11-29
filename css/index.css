@@ -66,5 +66,51 @@ nav > button {
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0);
     border-style: none;
+    color: black;
+    font-family: "dosis-regular", sans-serif;
+}
+
+.first-bakground {
+    background: url("../images/bg-creation6.jpg") top center no-repeat;
+    height: 453px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 228px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: "dosis-regular", sans-serif;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(173, 173, 173);
+    font-family: "dosis-regular", sans-serif;
+}
+
+footer > p > a:link {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
+
+footer > p > a:visited {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
+
+footer > p > a:hover {
     color: blue;
+    text-decoration: none;
 }
