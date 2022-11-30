@@ -92,3 +92,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+
+main > ul > div > nav > a:hover {
+    color: black;
+}
