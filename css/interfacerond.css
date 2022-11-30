@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background: wheat;
+    background: black;
     
 }
 .container .text {
@@ -80,9 +80,15 @@ nav.animation a:nth-child(3){
 span{
     color: #2BD6B4;
 }
+
 body{
     font-size: 12px;
     font-family: sans-serif;
     background: rgb(201, 186, 157);
 }
 
+.center-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
