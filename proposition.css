@@ -1,0 +1,123 @@
+body{
+  background: #000000;
+}
+header{
+    
+    background-color: #000000;
+    background: #000000;
+    bottom: 0;
+    display: flex;
+    border: #000000;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+  }
+  header>img{
+    width: 150px;
+  
+  }
+  h1{
+    color: #e7a300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "dosis-regular",sans-serif;
+  }
+ 
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    color: #000000; 
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 0px;
+    box-sizing: border-box;
+  }
+  p {
+      color: #e7a300;
+  }
+  input[type='radio']:after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #d1d3d1;
+          content: '';
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid #e33822;
+      }
+  
+      input[type='radio']:checked:after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #e7a300;
+          content: '';
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid #e33822;
+      }
+      
+  input[type=submit] {
+    width: 100%;
+    background-color: #e7a300;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  label{
+      color:#e7a300;
+      
+  } 
+  input[type=submit]:hover {
+    background-color: #e33822;
+  }
+  
+  div {
+    border-radius: 0px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-family: "dosis-regular",sans-serif;
+  }
+  footer{
+    display: flex;
+    align-items: center;
+  text-align: center;
+    padding: 1rem 1rem;
+    font-family: "Roboto",sans-serif,;
+    background: #000000;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  footer>small{
+    color: #838383;
+    font-family: "Roboto",sans-serif,;
+  }
+  footer>small>a{
+    color: #838383;
+    font-family: "Roboto",sans-serif,;
+  }
+  footer>small>a:hover{
+    color: #337ab7;
+    font-family: "Roboto",sans-serif,;
+  }
+  footer>img{
+    width:75px;
+  }
+  a{
+    text-decoration: none;
+    font: "Roboto",sans-serif,;
+  }
+
+  
