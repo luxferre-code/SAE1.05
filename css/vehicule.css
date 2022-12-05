@@ -1,0 +1,48 @@
+.vehicule-type {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vehicule-type-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vehicule-type-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+div[class~="vehicule-type"] > p{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 50px;
+    color: rgb(156, 156, 156);
+}
