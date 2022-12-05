@@ -187,3 +187,8 @@ html {
     width: 50%;
     height: 50%;
 }
+
+img {
+    width: 10vw;
+    height: 10vw;
+}
