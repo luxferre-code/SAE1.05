@@ -192,3 +192,8 @@ img {
     width: 10vw;
     height: 10vw;
 }
+
+body > header > button > a:link, body > header > button > a:visited, body > header > button > a:hover {
+    color: white;
+    text-decoration: none;
+}
