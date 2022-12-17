@@ -1,5 +1,5 @@
 :root {
-    --font_size: 1vw;
+    --font_size: 1rem;
 }
 
 body {
@@ -189,8 +189,8 @@ html {
 }
 
 img {
-    width: 7vw;
-    height: 7vw;
+    width: 7rem;
+    height: 7rem;
 }
 
 body > header > button > a:link, body > header > button > a:visited, body > header > button > a:hover {

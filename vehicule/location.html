@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" type="image/x-icon" href="./images/ankama.png"/>
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/proposition.css">
+	</header>
+	<body>
+		<title>Ankama : Covoiturage</title>
+		<header><img src="./images/ankamama.png"></header>
+		<h1>Page de location</h1>
+        
+        <form>
+            <p>
+                <fieldset>
+                    <legend>Civilité: <span aria-label="required">*</span></legend>
+                    <input type="radio" required name="civi" id="mme" value="Madame"> <label for="mme">Madame</label>
+                    <input type="radio" required name="civi" id="mr" value="Monsieur"> <label for="mr">Monsieur</label>
+                    <input type="radio" required name="civi" id="others" value="Autres"> <label for="others">Autres</label>
+                </fieldset>
+            </p>
+
+            <p>
+                <label for="fname">Prenom: <span aria-label="required">*</span></label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre Prenom..." required>
+            </p>
+
+            <p>
+                <label for="lname">Nom: <span aria-label="required">*</span></label>
+                <input type="text" id="lname" name="lastname" placeholder="Votre nom..." required>
+            </p>
+
+            <p>
+                <label for="idname">Identifiant Ankama: <span aria-label="required">*</span></label>
+                <input type="text" id="idname" name="identifiant" placeholder="Votre identifiant Ankama..." required>
+            </p>
+
+            <p>
+                <label for="place">Véhicule souhaité: <span aria-label="required">*</span></label>
+                <select id="cov" name="cov" required >
+                    <option value="suv-1">SUV ...</option>
+                    <option value="berline-1">Berline ...</option>
+                    <option value="citadine-1">Citadine ...</option>
+                    <option value="trotinette">Trotinette électrique</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="trajet">Trajet</label>
+                <input type="text" id="fname" name="depart" placeholder="Départ..." required>
+                <input type="text" id="fname" name="Destination" placeholder="Destination..." required>
+            </p>
+
+            <p>
+                <label for="trajet">Date de prise en charge: <span aria-label="required">*</span></label>
+                <input type="datetime-local" id="time" name="time"required>
+            </p>
+
+            <a href="http://www.google.com/">
+                <button>
+                    <span>Envoyer</span>
+                </button>
+            </a>
+        </form>
+
+		<!--<div>
+			<p>
+			  <input type="radio" name="civi" value="Mme" /> Madame
+			  <input type="radio" name="civi" value="Mr" /> Monsieur
+			  <input type="radio" name="civi" value="" /> Autre
+			</p>
+			<label for="fname">Prenom*</label>
+			<input type="text" id="fname" name="firstname" placeholder="Votre Prenom..." required>
+			
+			<label for="lname">Nom*</label>
+			<input type="text" id="lname" name="lastname" placeholder="Votre nom..." required>
+			
+			<label for="idname">Identifiant Ankama*</label>
+			<input type="text" id="idname" name="identifiant" placeholder="Votre identifiant Ankama..." required>
+			
+			<label for="place">Véhicule souhaité*</label>
+			<select id="cov" name="cov" required>
+			    <option value="choisir">--Choisir--</option>
+			    <option value="suv-1">SUV ...</option>
+			    <option value="berline-1">Berline ...</option>
+			    <option value="citadine-1">Citadine ...</option>
+			    <option value="trotinette">Trotinette électrique</option>
+			    </select>
+			<label for="trajet">Trajet</label>
+			<input type="text" id="fname" name="depart" placeholder="Départ..." required>
+			<input type="text" id="fname" name="Destination" placeholder="Destination..." required>
+			<label for="trajet">Date de prise en charge*</label>
+			<input type="datetime-local" id="time" name="time"required>
+			
+			<input type="submit" value="Envoyer">
+			
+			</div>-->
+
+
+		<footer>
+			<img src="./images/logo_footer.png" alt="Ankama logo" style="height: 3rem; width: 6rem;">
+			<p style="color: rgb(156, 156, 156);">© 2022 Ankama. Tous droits réservés. <a href="https://account.ankama.com/fr/cgu">Conditions d'utilisation</a> - 
+				<a href="https://account.ankama.com/fr/politique-confidentialite">Politique de confidentialité</a> - 
+				<a href="https://account.ankama.com/fr/cgv">Conditions Générales de Vente</a> -
+				<a href="https://account.ankama.com/fr/mentions-legales?ref=ankama">Mentions légales</a>
+				<a href="https://fr-fr.facebook.com/Ankama/"><img src="./images/FFF.png" width="32" height="32" style="height: 1rem; width: 1rem;"></a>
+				<a href="https://www.youtube.com/channel/UCG-9htpBpnCfRFBDuaPx2kA"><img src="./images/youtube.png" width="32" height="32" style="height: 1rem; width: 1rem;"></a>
+			</p>
+		</footer>
+	</body>
+</html>

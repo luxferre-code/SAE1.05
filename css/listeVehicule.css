@@ -1,0 +1,75 @@
+:root {
+    --text-color: rgb(60, 60, 60);
+    --head-color: gray;
+    --color-categorie: black;
+    --bg-color-list: rgb(185, 185, 135);
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    background-color: white;
+    font-size: 1.1rem;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div[class^="container-main"] > h2{
+    text-align: center;
+    color: var(--head-color);
+    text-shadow: 5px;
+    text-decoration: underline;
+}
+
+.container-type {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div[class^="container-type"] > h2{
+    text-align: left;
+    color: var(--color-categorie);
+    font-size: 2rem;
+    text-shadow: 5px;
+    position: relative;
+    left: -40%;
+}
+
+.container-list-vehicule {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+    background-color: var(--bg-color-list);
+    border-radius: 2rem;
+    border-color: var(--head-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--head-color);
+}
+
+a:active {
+    color: var(--head-color);
+}
+
+a:visited {
+    color: var(--text-color);
+}

@@ -76,7 +76,7 @@ header{
     border-radius: 0px;
     cursor: pointer;
   }
-  label{
+  label, legend{
       color:#e7a300;
       
   } 
@@ -120,4 +120,19 @@ header{
     font: "Roboto",sans-serif,;
   }
 
-  
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:invalid:required {
+  background-color: rgb(206, 206, 206);
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+form {
+  background-color: white;
+}

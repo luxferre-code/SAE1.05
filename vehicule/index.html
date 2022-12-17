@@ -4,53 +4,64 @@
 	<meta charset="UTF-8">
 	<title>Listes des véhicules disponibles | Ankama</title>
 	<link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/interfacerond.css">
+    <link rel="stylesheet" href="../css/listeVehicule.css">
     <link rel="icon" href="../favicon.ico">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <a href="../index.html"><img src="../images/logo_footer.png" style="height: 5vw;"></a>
-            <div class="text">
-                <h1>Véhicule disponible</h1>
-              </div>
-            </div>
-        </div>
-        
+    <a id="top"></a>
+    <header style="border-style: solid; border-color: gray; border-top: none; border-left: none; border-right: none; border-width: 8px;">
+        <button class="btn-menu"><a href="../index.html">ANKAMA</a></button>
+        <button class="connect"><a href="https://account.ankama.com/fr/identification?f=https%3A%2F%2Fwww.ankama.com%2Ffr">Connexion</a></button>
+        <button class="register"><a href="https://account.ankama.com/fr/creer-un-compte">Inscription</a></button>
+        <button class="support"><a href="https://support.ankama.com/">Support</a></button>
     </header>
     
     <main>
-        <h2>Trois types de véhicules vous sont proposé parmi trois types de consommations énergétiques différents qui respecte l’environnement pour vos déplacements </h2>
-        <h3> Nous vous proposons :</h3>
-        <ul>
-            <li>Des véhicules électrique :</li>
-            <div><nav class="center-list">
-                <a href="./berline/electrique.html">Berline</a>
-                <a href="./suv/electrique.html">SUV</a></li>
-                <a href="./citadine/electrique.html">Citadine</a>
-            </nav></div>
-            <li>Des véhicules hybride :</li>
-            <div class="center-list"><nav>
-                <a href="./berline/hybride.html">Berline</a>
-                <a href="./suv/hybride.html">SUV</a>
-                <a href="./citadine/hybride.html">Citadine</a>
-            </div></nav></div>
-            <li>Mais aussi des véhicules roulant aux bio-éthanol : </li>
-            <div class="center-list"><nav>
-                <a href="./berline/bioethanol.html">Berline</a>
-                <a href="./suv/bioethanol.html">SUV</a>
-                <a href="./citadine/bioethanol.html">Citadine</a>
-                <!--<div class="animation">-->
-
-            </div>
-            </nav>
+        <div class="container-main">
+            <h2>Trois types de véhicules vous sont proposé parmi trois types de consommations énergétiques différents qui respecte l’environnement pour vos déplacements </h2>
+            <h3>Nous vous proposons :</h3>
         </div>
-        </ul>
+
+        <div class="container-type">
+            <h2>Berline: </h2>
+            <div class="container-list-vehicule">
+                <p><a href="./berline/electrique.html">Des véhicules électrique</a></p>
+                <p><a href="./berline/hybride.html">Des véhicules hybride</a></p>
+                <p><a href="./berline/bioethanol.html">Des véhicules roulant aux bio-éthanol</a></p>
+            </div>
+        </div>
+
+        <div class="container-type">
+            <h2>SUV: </h2>
+            <div class="container-list-vehicule">
+                <p><a href="./suv/electrique.html">Des véhicules électrique</a></p>
+                <p><a href="./suv/hybride.html">Des véhicules hybride</a></p>
+                <p><a href="./suv/bioethanol.html">Des véhicules roulant aux bio-éthanol</a></p>
+            </div>
+        </div>
+
+        <div class="container-type">
+            <h2>Citadine: </h2>
+            <div class="container-list-vehicule">
+                <p><a href="./citadine/electrique.html">Des véhicules électrique</a></p>
+                <p><a href="./citadine/hybride.html">Des véhicules hybride</a></p>
+                <p><a href="./citadine/bioethanol.html">Des véhicules roulant aux bio-éthanol</a></p>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
 
     </main>
     <footer>
-
+        <img src="../images/logo_footer.png" alt="Ankama logo" style="height: 3rem; width: 6rem;">
+        <p >© 2022 Ankama. Tous droits réservés. <a href="https://account.ankama.com/fr/cgu">Conditions d'utilisation</a> - 
+            <a href="https://account.ankama.com/fr/politique-confidentialite">Politique de confidentialité</a> - 
+            <a href="https://account.ankama.com/fr/cgv">Conditions Générales de Vente</a> -
+            <a href="https://account.ankama.com/fr/mentions-legales?ref=ankama">Mentions légales</a>
+            <a href="https://fr-fr.facebook.com/Ankama/"><img src="../images/FFF.png" width="32" height="32" style="height: 1rem; width: 1rem;"></a>
+            <a href="https://www.youtube.com/channel/UCG-9htpBpnCfRFBDuaPx2kA"><img src="../images/youtube.png" width="32" height="32" style="height: 1rem; width: 1rem;"></a>
+        </p>
     </footer>
 </body>
 </html>
