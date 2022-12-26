@@ -7,7 +7,9 @@
 
 	<body>
 		<title>Ankama : Covoiturage</title>
-		<header><img src="../images/ankamama.png"></header>
+		<header>
+            <a href="../index.html"><img src="../images/ankamama.png"></a>
+        </header>
 		<h1>PUBLIER UN TRAJET</h1>
 
         <form>
@@ -59,10 +61,13 @@
                 <label for="date">Date de covoiturage: <span aria-label="required">*</span></label>
                 <input type="datetime-local" id="date" name="date" required>
             </p>
+            
+            <a href="./en_attente.html">
+                <button>Envoyer</button>
+            </a>
+            
+            <h6 style="text-align: center; margin: 0 0 0 0; padding: 1rem;">Après l'envoie, la page va se recharger. Ne vous en faites pas, votre demande à bien était traité !</h6>
 
-            <button>
-                <a href="./en_attente.html">Envoyer</a>
-            </button>
         </form>
 
 		<footer>

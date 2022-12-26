@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/ankama.png"/>
+	<link rel="stylesheet" href="../css/proposition.css">
+    <title>Devenir Anka'turage</title>
+</head>
+<body>
+    <!-- Créer un formulaire qui permet à un utilisateur Ankama de devenir un covoitureur
+    Il faudra le lui demander OBLIGATOIREMENT:
+        - Nom
+        - Prénom
+        - Identifiant Ankama
+        - Nombre de place
+        - Départ
+        - Date et heur
+    -->
+
+    <header style="display: flex; flex-direction: column;">
+        <header>
+            <a href="../index.html"><img src="../images/ankamama.png"></a>
+        </header>
+		<h1>DEVENIR ANKA'TUREUR</h1>
+    </header>
+
+    <main>
+        <form action="rejoindre_covoiturage.html" method="POST">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Votre nom..." required>
+    
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Votre Prenom..." required>
+    
+            <label for="identifiant">Identifiant Ankama</label>
+            <input type="text" name="identifiant" id="identifiant" placeholder="Votre identifiant Ankama..." required>
+            <br><br>
+            <label for="nombre_place">Nombre de place</label>
+            <input type="number" name="nombre_place" id="nombre_place" required>
+            <br><br>
+            <label for="depart">Départ</label>
+            <input type="text" name="depart" id="depart" placeholder="Départ de..." required>
+    
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" required>
+    
+            <label for="heure">Heure</label>
+            <input type="time" name="heure" id="heure" required>
+            
+            <br><br>
+            <button type="submit">Envoyer</button>
+        </form>
+    
+        <h6 style="text-align: center; margin: 0 0 0 0; padding: 1rem; background-color: white;">Après l'envoie, la page va se recharger. Ne vous en faites pas, votre demande à bien était traité !</h6>
+    </main>
+
+    <footer>
+        <img src="../images/ankamama.png">
+        <small>© 2022<a href="https://www.ankama.com/fr"> Ankama</a>.</small>
+        <small> Tous droits réservés.</small> 
+        <small><a href="https://account.ankama.com/fr/cgu">Conditions d'utilisation</a>-</small>
+        <small><a href="https://account.ankama.com/fr/politique-confidentialite">Politique de confidentialité</a> -</small>
+        <small><a href="https://account.ankama.com/fr/cgv">Conditions Générales de Vente</a>-</small>
+        <small><a href="https://account.ankama.com/fr/mentions-legales?ref=ankama">Mentions Légales</a>-</small> 
+        <small><a href="https://fr-fr.facebook.com/Ankama/"><img src="../images/FFF.png"></a></small>
+        <small><a href="https://www.youtube.com/channel/UCG-9htpBpnCfRFBDuaPx2kA"><img src="../images/youtube.png"></a></small>
+    </footer>
+
+</body>
+</html>

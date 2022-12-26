@@ -4,11 +4,6 @@
 
 body {
     background-color: black;
-    font-family: "dosis-regular", sans-serif;
-    font-size: var(--font_size);
-    color: white;
-    margin: 0;
-    padding: 0;
 }
 
 body > header > button {
@@ -202,4 +197,69 @@ body > header > button > a:link, body > header > button > a:visited, body > head
     font-family: "Roboto",sans-serif;
     color: white;
     text-decoration: none;
+}
+
+.container-avantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: solid 10px;
+    border-color: rgb(0, 183, 255);
+    background-color: rgb(185, 185, 185);
+}
+
+.avantage-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "latoblack", sans-serif;
+    font-size: var(--font_size);
+    color: white;
+    width: 15%;
+    height: 100px;
+    background-color: rgb(0, 183, 255);
+}
+
+.avantage-text {
+    /* Create a "box" around the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "latoblack", sans-serif;
+    font-size: var(--font_size);
+    color: white;
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    position: relative;
+}
+
+.avantage-text > h3 {
+    font-family: "latoblack", sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.avantage-text > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: inherit;
+    top: 1.5rem;
+    left: 20%;
+}
+
+.avantage-text > ul > li {
+    font-family: "latoblack", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 15px;
 }

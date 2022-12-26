@@ -7,10 +7,10 @@
   </header>
 <body>
   <title>Ankama : Covoiturage</title>
-  <header><img src="./images/ankamama.png"></header>
+  <header>
+    <a href="../index.html"><img src="./images/ankamama.png"></a>
+  </header>
   <h1>Page de location</h1>
-
-
   <div>
     
       <p>
@@ -19,16 +19,16 @@
         <input type="radio" name="civi" value="" /> Autre
       </p>
       <label for="fname">Prenom</label>
-      <input type="text" id="fname" name="firstname" placeholder="Votre Prenom...">
+      <input type="text" id="fname" name="firstname" placeholder="Votre Prenom..." required>
 
       <label for="lname">Nom</label>
-      <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
+      <input type="text" id="lname" name="lastname" placeholder="Votre nom..." required>
 
       <label for="idname">Identifiant Ankama</label>
-      <input type="text" id="idname" name="identifiant" placeholder="Votre identifiant Ankama...">
+      <input type="text" id="idname" name="identifiant" placeholder="Votre identifiant Ankama..." required>
 
       <label for="place">Véhicule souhaité</label>
-      <select id="cov" name="cov">
+      <select id="cov" name="cov" required>
           <option value="choisir">--Choisir--</option>
           <option value="suv-1">SUV ...</option>
           <option value="berline-1">Berline ...</option>
@@ -36,12 +36,14 @@
           <option value="trotinette">Trotinette électrique</option>
           </select>
       <label for="trajet">Trajet</label>
-      <input type="text" id="fname" name="depart" placeholder="Départ...">
-      <input type="text" id="fname" name="Destination" placeholder="Destination...">
+      <input type="text" id="fname" name="depart" placeholder="Départ..." required>
+      <input type="text" id="fname" name="Destination" placeholder="Destination..." required>
       <label for="trajet">Date de prise en charge</label>
-      <input type="datetime-local" id="time" name="time">
+      <input type="datetime-local" id="time" name="time" required>
     
-      <input type="submit" value="Envoyer">
+      <button type="submit">
+        <a href="./covoiturage/en_attente.html">Envoyer</a>
+      </button>
 
   </div>
 
