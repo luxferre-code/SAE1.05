@@ -263,3 +263,67 @@ body > header > button > a:link, body > header > button > a:visited, body > head
     width: 60%;
     margin-bottom: 15px;
 }
+
+.container-utilisation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: solid 10px;
+    border-color: rgb(72, 0, 132);
+    background-color: rgb(185, 185, 185);
+}
+
+.utilisation-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "latoblack", sans-serif;
+    font-size: var(--font_size);
+    color: white;
+    width: 20%;
+    height: 100px;
+    background-color: rgb(72, 0, 132);
+}
+
+.utilisation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "latoblack", sans-serif;
+    font-size: var(--font_size);
+    color: white;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    position: relative;
+}
+
+.utilisation-text > h3 {
+    font-family: "latoblack", sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.utilisation-text > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: inherit;
+    top: 1.5rem;
+    left: 20%;
+}
+
+.utilisation-text > ul > li {
+    font-family: "latoblack", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 15px;
+}
