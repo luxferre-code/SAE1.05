@@ -1,8 +1,8 @@
 :root {
-    --text-color: rgb(60, 60, 60);
+    --text-color: white;
     --head-color: gray;
     --color-categorie: black;
-    --bg-color-list: rgb(185, 185, 135);
+    --bg-color-list:rgba(0, 0, 0, 0.6);;
 }
 
 body {
