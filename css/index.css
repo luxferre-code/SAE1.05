@@ -208,7 +208,11 @@ body > header > button > a:link, body > header > button > a:visited, body > head
     border-bottom: none;
     border-top: solid 10px;
     border-color: rgb(0, 183, 255);
-    background-color: rgb(185, 185, 185);
+    background-color: white;
+    background-image: url("../images/portal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .avantage-title {
