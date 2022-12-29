@@ -273,7 +273,11 @@ body > header > button > a:link, body > header > button > a:visited, body > head
     border-bottom: none;
     border-top: solid 10px;
     border-color: rgb(72, 0, 132);
-    background-color: rgb(185, 185, 185);
+    background-color: white;
+    background-image: url("../images/underground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .utilisation-title {
